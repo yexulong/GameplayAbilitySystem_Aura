@@ -4,9 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/HUD.h"
-#include "UI/Widget/AuraUserWidget.h"
 #include "AuraHUD.generated.h"
 
+class UAuraUserWidget;
 /**
  * 
  */
