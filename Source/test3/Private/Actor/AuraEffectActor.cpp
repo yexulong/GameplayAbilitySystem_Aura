@@ -5,9 +5,6 @@
 
 #include "AbilitySystemBlueprintLibrary.h"
 #include "AbilitySystemComponent.h"
-#include "AbilitySystemInterface.h"
-#include "AbilitySystem/AuraAbilitySystemComponent.h"
-#include "AbilitySystem/AuraAttributeSet.h"
 
 AAuraEffectActor::AAuraEffectActor()
 {
