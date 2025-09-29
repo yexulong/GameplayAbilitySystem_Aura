@@ -27,7 +27,7 @@ void AAuraPlayerController::CursorTrace()
 	if (!CursorHit.bBlockingHit) return;
 
 	LastActor = ThisActor;
-	ThisActor = TScriptInterface<IEnemyInterface>(CursorHit.GetActor());
+	ThisActor = Cast<IEnemyInterface>(CursorHit.GetActor());
 
 	/**
 	 * Line trace from cursor, There are several scenarios;
