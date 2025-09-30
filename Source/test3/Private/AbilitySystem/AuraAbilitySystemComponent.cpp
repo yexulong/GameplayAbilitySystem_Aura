@@ -14,7 +14,7 @@ void UAuraAbilitySystemComponent::AbilityActorInfoSet()
 		-1,
 		10.f,
 		FColor::Red,
-		FString::Printf(TEXT("Tag: %s"), *eplay.ToString())
+		FString::Printf(TEXT("Tag: %s"), *GameplayTags.Attributes_Secondary_Armor.ToString())
 		);
 }
 
