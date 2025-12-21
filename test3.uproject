@@ -14,7 +14,8 @@
 				"UMG",
 				"CoreUObject",
 				"Persona",
-				"EnhancedInput"
+				"EnhancedInput",
+				"AIModule"
 			]
 		}
 	],
