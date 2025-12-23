@@ -4,10 +4,8 @@
 #include "AI/BTService_FindNearestPlayer.h"
 
 #include "AIController.h"
-#include "VectorTypes.h"
 #include "BehaviorTree/BTFunctionLibrary.h"
 #include "Kismet/GameplayStatics.h"
-#include "Materials/MaterialExpressionOperator.h"
 
 void UBTService_FindNearestPlayer::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory, float DeltaSeconds)
 {
